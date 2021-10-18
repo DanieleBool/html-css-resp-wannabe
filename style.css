@@ -92,5 +92,8 @@ img {
   body{
     display: contents;
     align-items: center;
+    overflow-y: hidden;
   }
+.row img {
+     height: 100px;
 }

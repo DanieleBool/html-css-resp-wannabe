@@ -82,18 +82,41 @@ img {
   #why .row > .first,
   #why .row > .second,
   #why .row > .third {
-  width: 100%;
-  float: none;
-  text-align: center;
+    width: 90%;
+    float: none;
+    text-align: center;
+    margin: auto;
   }
   .row{
     width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
   }
   body{
     display: contents;
     align-items: center;
     overflow-y: hidden;
   }
-.row img {
-     height: 100px;
+  .row img {
+    height: 100px;
+  }
+
+  body{
+    font-size: 14px;
+    margin: auto;
+  }
+  .row h1{
+    padding: 15px 0 0px;
+    font-size: 28px;
+  }
+  .row .left, .right{
+    padding: 10px 0;
+  }
+  hr{
+    width: 50%;
+    margin: 20px auto;
+  }
+  img{
+    margin-top: 15px;
+  }
 }
